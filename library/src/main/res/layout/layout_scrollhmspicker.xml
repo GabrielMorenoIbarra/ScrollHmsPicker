@@ -7,6 +7,8 @@
     <io.github.deweyreed.scrollhmspicker.NumberPickerView
         android:id="@+id/pickerHours"
         style="@style/ScrollNumberPickerStyle"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
         app:npv_MaxValue="23"
         app:npv_MinValue="0"
         app:npv_TextArray="@array/array_0to23"

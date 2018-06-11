@@ -30,8 +30,8 @@
         <item name="android:textSize">@dimen/text_size_label</item>
         <item name="android:textStyle">bold</item>
         <item name="android:layout_gravity">center_vertical</item>
-        <item name="android:layout_marginEnd" tools:targetApi="jelly_bean_mr1">12dp</item>
-        <item name="android:layout_marginRight">12dp</item>
+        <item name="android:layout_marginEnd" tools:targetApi="jelly_bean_mr1">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
     </style>
 
     <style name="DialogButton"/>
