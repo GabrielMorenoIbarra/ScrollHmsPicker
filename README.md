@@ -1,10 +1,6 @@
-[![Android Arsenal]( https://img.shields.io/badge/Android%20Arsenal-ScrollHmsPicker-green.svg?style=flat)]( https://android-arsenal.com/details/1/6805)
-[![Newest version](https://jitpack.io/v/DeweyReed/ScrollHmsPicker.svg)](https://jitpack.io/#DeweyReed/ScrollHmsPicker)
-[![Translation-ZH](https://img.shields.io/badge/Translation-%E4%B8%AD%E6%96%87-red.svg)](https://github.com/DeweyReed/ScrollHmsPicker/blob/master/README-ZH.md#scrollhmspicker)
-
 # ScrollHmsPicker
 
-A simple HMS time picker with scrolling.
+A simple HMS time picker with scrolling. This fork is a little bit customized to obtain other UI results.
 
 ## Screenshots
 
@@ -27,11 +23,11 @@ allprojects {
 }
 ```
 
-Step 2. Add the dependency => [![Newest version](https://jitpack.io/v/DeweyReed/ScrollHmsPicker.svg)](https://jitpack.io/#DeweyReed/ScrollHmsPicker)
+Step 2. Add the dependency:
 
 ```Groovy
 dependencies {
-    implementation 'com.github.DeweyReed:ScrollHmsPicker:$version'
+    implementation 'com.github.GabrielMorenoIbarra:ScrollHmsPicker:1.0.4'
 }
 ```
 
