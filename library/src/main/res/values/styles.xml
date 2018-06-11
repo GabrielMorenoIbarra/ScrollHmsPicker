@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
-    <style name="ScrollNumberPickerStyle">
+    <style name="MatchParent">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="WrapContent">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="ScrollNumberPickerStyle" parent="WrapContent">
         <item name="npv_ShowCount">5</item>
         <item name="npv_ShowDivider">false</item>
         <item name="npv_WrapSelectorWheel">true</item>
@@ -14,12 +24,15 @@
         <item name="android:fadingEdgeLength">56dp</item>
     </style>
 
-    <style name="Label">
+    <style name="Label" parent="WrapContent">
         <item name="android:textAppearance">@style/TextAppearance.AppCompat.Headline</item>
         <item name="android:textColor">@android:color/holo_red_light</item>
         <item name="android:textSize">@dimen/text_size_label</item>
         <item name="android:textStyle">bold</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_marginEnd" tools:targetApi="jelly_bean_mr1">12dp</item>
+        <item name="android:layout_marginRight">12dp</item>
     </style>
 
-    <style name="DialogButton" />
+    <style name="DialogButton"/>
 </resources>

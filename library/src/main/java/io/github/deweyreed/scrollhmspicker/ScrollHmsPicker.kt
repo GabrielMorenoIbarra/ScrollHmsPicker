@@ -14,10 +14,6 @@ import android.widget.LinearLayout
 import android.widget.TextView
 
 @Suppress("unused")
-/**
- * Created on 2018/2/13.
- */
-
 class ScrollHmsPicker @JvmOverloads constructor(
         context: Context,
         attrs: AttributeSet? = null,

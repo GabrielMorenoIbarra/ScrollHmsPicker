@@ -11,10 +11,6 @@ import android.view.ViewGroup
 import android.view.Window
 import android.widget.Button
 
-/**
- * Created on 2018/2/14.
- */
-
 class ScrollHmsPickerDialog : DialogFragment() {
     interface HmsPickHandler {
         fun onHmsPick(reference: Int, hours: Int, minutes: Int, seconds: Int)

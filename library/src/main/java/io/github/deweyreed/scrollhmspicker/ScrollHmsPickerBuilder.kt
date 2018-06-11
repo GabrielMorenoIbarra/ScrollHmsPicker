@@ -5,10 +5,6 @@ import android.support.annotation.ColorRes
 import android.support.v4.app.FragmentManager
 
 @Suppress("unused", "MemberVisibilityCanBePrivate")
-/**
- * Created on 2018/2/14.
- */
-
 class ScrollHmsPickerBuilder(private val fragmentManager: FragmentManager,
                              private val pickListener: ScrollHmsPickerDialog.HmsPickHandler) {
     private var reference: Int = -1
